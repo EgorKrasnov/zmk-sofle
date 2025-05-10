@@ -25,7 +25,7 @@
             #binding-cells = <0>;
             tapping-term-ms = <200>;
             flavor = "tap-preferred";
-            bindings = <&kp M &kp LEFT_BRACKET>; // M (ь) при нажатии, [ (ъ) при удержании
+            bindings = <&kp 0x70010 &kp 0x7002F>; // M (ь) при нажатии, [ (ъ) при удержании
         };
     };
 
