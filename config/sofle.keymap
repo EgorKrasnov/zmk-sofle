@@ -18,6 +18,17 @@
 / {
     combos { compatible = "zmk,combos"; };
 
+    behaviors {
+        m_rus: hold_tap_m {
+            compatible = "zmk,behavior-hold-tap";
+            label = "M -> ь/ъ";
+            #binding-cells = <0>;
+            tapping-term-ms = <200>;
+            flavor = "tap-preferred";
+            bindings = <&kp M &kp LEFT_BRACKET>; // M (ь) при нажатии, [ (ъ) при удержании
+        };
+    };
+
     keymap {
         compatible = "zmk,keymap";
 
@@ -36,7 +47,7 @@
                 &kp GRAVE &kp N1 &kp N2 &kp N3 &kp N4 &kp N5                &kp N6 &kp N7 &kp N8 &kp N9 &kp N0 &kp BKSP
                 &kp ESC &kp Q &kp W &kp E &kp R &kp T                       &kp Y &kp U &kp I &kp O &kp P &kp LEFT_BRACKET
                 &kp TAB &kp A &kp S &kp D &kp F &kp G                       &kp H &kp J &kp K &kp L &kp SEMI &kp SQT
-                &kp LEFT_SHIFT &kp Z &kp X &kp C &kp V &kp B &kp C_MUTE     &none &kp N &kp M &kp COMMA &kp DOT &kp FSLH &kp RIGHT_SHIFT
+                &kp LEFT_SHIFT &kp Z &kp X &kp C &kp V &kp B &kp C_MUTE     &none &kp N &m_rus &kp COMMA &kp DOT &kp FSLH &kp RIGHT_SHIFT
                 &kp LCTRL &kp LEFT_ALT &kp LGUI &none &kp SPACE             &kp ENTER &none &none &none &none
             >;
 
