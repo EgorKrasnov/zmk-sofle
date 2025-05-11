@@ -1,5 +1,24 @@
-.vscode
-.idea
-**/.DS_Store
+# ==== ZMK-specific artifacts ====
+/build/
+/out/
+/zmk/
+/firmware/
 
+# ==== System files ====
+*.swp
+*.swo
+*~
+Thumbs.db
+
+# ==== Development environment ====
+.idea          # IDEA
+.vscode        # VSCode
+/.vs/          # Visual Studio
+/.history/     # VSCode History
+/.env          # Environment files (if used)
+
+
+# ==== macOS ====
+.DS_Store
+._*
 
