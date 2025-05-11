@@ -16,33 +16,6 @@
 / {
     combos { compatible = "zmk,combos"; };
 
-    macros {
-        nav_ctrl_l: nav_ctrl_l {
-            compatible = "zmk,behavior-macro";
-            wait-ms = <0>;
-            tap-ms = <0>;
-            bindings = <&kp LC(LEFT)>;
-        };
-        nav_ctrl_d: nav_ctrl_d {
-            compatible = "zmk,behavior-macro";
-            wait-ms = <0>;
-            tap-ms = <0>;
-            bindings = <&kp LC(DOWN)>;
-        };
-        nav_ctrl_u: nav_ctrl_u {
-            compatible = "zmk,behavior-macro";
-            wait-ms = <0>;
-            tap-ms = <0>;
-            bindings = <&kp LC(UP)>;
-        };
-        nav_ctrl_r: nav_ctrl_r {
-            compatible = "zmk,behavior-macro";
-            wait-ms = <0>;
-            tap-ms = <0>;
-            bindings = <&kp LC(RIGHT)>;
-        };
-    };
-
     keymap {
         compatible = "zmk,keymap";
 
@@ -63,13 +36,13 @@
         };
 
        nav_num_layer {
-
            display-name = "nav_num";
+           
            bindings = <
                 &kp F1 &kp F2 &kp F3 &kp F4 &kp F5 &kp F6                               &kp F7 &kp F8 &kp F9 &kp F10 &kp F11 &kp F12
-                &trans &none &kp HOME &kp PG_DN &kp PG_UP  &kp END                      &none  &kp N7 &kp N8 &kp N9 &kp ASTERISK &kp SLASH
+                &trans &none &kp HOME &kp PG_DN &kp PG_UP  &kp END                      &none &kp N7 &kp N8 &kp N9 &kp ASTERISK &kp SLASH
                 &trans &none &kp LEFT &kp DOWN &kp UP  &kp RIGHT                        &none &kp N4 &kp N5 &kp N6 &kp PLUS &kp MINUS
-                &trans &none &nav_ctrl_l &nav_ctrl_d &nav_ctrl_u &nav_ctrl_r &trans     &trans &none &kp N1 &kp N2 &kp N3 &kp EQUAL &none
+                &trans &none &kp LC(LEFT) &kp LC(DOWN) &kp LC(UP) &kp LC(RIGHT) &trans  &trans &none &kp N1 &kp N2 &kp N3 &kp EQUAL &none
                 &trans &trans &trans &trans &trans                                      &trans &trans &trans &kp N0 &none
             >;
        };
