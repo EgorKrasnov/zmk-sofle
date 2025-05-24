@@ -20,7 +20,8 @@
         comma_question: comma_question {
             compatible = "zmk,behavior-mod-morph";
             #binding-cells = <0>;
-            bindings = <&kp COMMA>, <&kp QMARK>;
+            bindings = <&macro_press &kp LCTRL &kp LSHFT &kp U &macro_release &kp LCTRL &kp LSHFT &macro_tap &kp N6 &kp C>, // Запятая
+                       <&macro_press &kp LCTRL &kp LSHFT &kp U &macro_release &kp LCTRL &kp LSHFT &macro_tap &kp N0 &kp N3 &kp F>; // Вопрос
             mods = <(MOD_LSFT)>;
         };
     };
