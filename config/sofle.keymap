@@ -21,7 +21,7 @@
             compatible = "zmk,behavior-mod-morph";
             #binding-cells = <0>;
             bindings = <&kp COMMA>, <&kp QMARK>;
-            mods = <MOD_LSFT>;
+            mods = <(MOD_LSFT)>;
         };
     };
 
