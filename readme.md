@@ -1,5 +1,5 @@
 ## Текущая раскладка [link](https://www.keyboard-layout-editor.com/#/gists/803ec39b995cdf110d8966f8026254b7)
-![](/images/sofle-keyboard-v2.png)
+![](/images/sofle-keyboard-v3.png)
 
 
 ## Полезное
