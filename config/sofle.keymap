@@ -25,7 +25,7 @@
             tapping-term-ms = <200>;
             flavor = "hold-preferred";
 
-            bindings = <&kp KP_DIVIDE> <&kp PERCENT>;
+            bindings = <&kp KP_DIVIDE>, <&kp PERCENT>;
         };
     };
 
