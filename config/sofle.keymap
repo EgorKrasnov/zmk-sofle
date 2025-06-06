@@ -19,7 +19,7 @@
             compatible = "zmk,behavior-macro";
             label = "SPOTLIGHT";
             #binding-cells = <0>;
-            macro = <LGUI SPC>;
+            macro = <&kp LGUI &kp SPACE>;
         };
     };
 
