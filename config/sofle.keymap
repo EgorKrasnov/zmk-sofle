@@ -16,16 +16,16 @@
 / {
     combos { compatible = "zmk,combos"; };
 
-    keymap {
-        compatible = "zmk,keymap";
-
-        macros {
+    macros {
             not_equals_macro: not_equals_macro {
                 compatible = "zmk,behavior-macro";
                 #binding-cells = <0>;
                 bindings = <&macro_tap &kp EXCL>, <&macro_tap &kp EQUAL>;
             };
-        };
+    };
+
+    keymap {
+        compatible = "zmk,keymap";
 
         default_layer {
             display-name = "default";
