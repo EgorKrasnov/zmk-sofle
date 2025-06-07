@@ -40,7 +40,7 @@
                 &none &none &none &none &none &none                                                &none &none &none &none &none &none
                 &trans &kp HOME &kp PG_UP &kp PG_DN &kp END &none                                  &none &kp N7 &kp N8 &kp N9 &kp ASTERISK &mt PERCENT KP_DIVIDE
                 &trans &kp LEFT &kp UP &kp DOWN &kp RIGHT &none                                    &none &kp N4 &kp N5 &kp N6 &kp PLUS &kp MINUS
-                &trans &kp LA(LEFT) &kp LA(UP) &kp LA(DOWN) &kp LA(RIGHT)&none &trans       &trans &none &kp N1 &kp N2 &kp N3 EQUAL &none
+                &trans &kp LA(LEFT) &kp LA(UP) &kp LA(DOWN) &kp LA(RIGHT)&none &trans       &trans &none &kp N1 &kp N2 &kp N3 &kp EQUAL &none
                 
                 &trans &trans &trans &trans &trans                                          &trans &trans &trans &kp N0 &none
             >;
