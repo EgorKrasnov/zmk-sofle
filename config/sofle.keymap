@@ -17,6 +17,7 @@
     macros {
         excl_eq: excl_eq_macro {
             compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
             wait-ms = <0>; // Не ждём между нажатиями
             tap-ms = <10>; // Длительность нажатия (опционально)
             bindings = <&kp EXCLAMATION &kp EQUAL>;
