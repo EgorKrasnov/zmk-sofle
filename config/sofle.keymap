@@ -14,6 +14,15 @@
 #define NAV_NUM 1
 #define SYM 2
 / {
+    behaviors {
+        mt: mt {
+            tapping-term-ms = <180>;
+            quick-tap-ms = <120>;
+            require-prior-idle-ms = <100>;
+            // flavor = "tap-preferred";
+        };
+    };
+
     keymap {
         compatible = "zmk,keymap";
 
