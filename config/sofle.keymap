@@ -36,7 +36,7 @@
             bindings = <
             &none               &none               &none               &none               &none               &none               &none               &none               &none               &none               &none               &none
             &kp ESC             &kp Q               &kp W               &kp E               &kp R               &kp T               &kp Y               &kp U               &kp I               &kp O               &kp P               &kp LEFT_BRACKET
-            &kp TAB             &hrm LCTRL A        &hrm LALT S         &hrm LGUI D         &hrm LSHFT F        &kp G               &kp h               &hrm LSHFT J        &hrm LGUI K         &hrm LALT L         &hrm LCTRL SEMI     &kp SQT
+            &kp TAB             &hrm LCTRL A        &hrm LALT S         &hrm LGUI D         &hrm LSHIFT F       &kp G               &kp H               &hrm LSHIFT J       &hrm LGUI K         &hrm LALT L         &hrm LCTRL SEMI     &kp SQT
             &none               &kp Z               &kp X               &kp C               &kp V               &kp B               &kp C_MUTE          &none               &kp N               &kp M               &kp COMMA           &kp DOT                 &kp FSLH                &none
             &none               &none               &none               &lt NAV LC(SPACE)   &kp SPACE           &kp ENTER           &lt SYM LG(SPACE)   &kp BKSP            &none               &none
             >;
