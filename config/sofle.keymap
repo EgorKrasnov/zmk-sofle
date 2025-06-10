@@ -51,7 +51,7 @@
            bindings = <
            &none                &none               &none               &none               &none               &none                                                       &none               &none               &none               &none               &none               &none
            &trans               &none               &kp HOME            &kp PG_UP           &kp END             &none                                                       &none               &kp N7              &kp N8              &kp N9              &kp ASTERISK        &mt PERCENT KP_DIVIDE
-           &trans               &hrm LCTRL NONE     &hrm LALT LEFT      &hrm LGUI DOWN      &hrm LSHIFT RIGHT   &none                                                       &none               &hrm LSHIFT N4      &hrm LGUI N5        &hrm LALT N6        &hrm LCTRL EQUAL    &kp MINUS
+           &trans               &hrm LCTRL &none    &hrm LALT LEFT      &hrm LGUI DOWN      &hrm LSHIFT RIGHT   &none                                                       &none               &hrm LSHIFT N4      &hrm LGUI N5        &hrm LALT N6        &hrm LCTRL EQUAL    &kp MINUS
            &trans               &none               &kp LA(LEFT)        &none               &kp LA(RIGHT)       &none               &trans              &trans              &none               &kp N1              &kp N2              &kp N3              &none               &none
                                                     &trans              &trans              &trans              &trans              &trans              &trans              &trans              &trans              &kp N0              &none
             >;
