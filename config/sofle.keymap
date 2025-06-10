@@ -35,10 +35,10 @@
 
             bindings = <
             &none               &none               &none               &none               &none               &none                                                       &none               &none               &none               &none               &none               &none
-            &kp ESC             &kp Q               &kp W               &kp E               &kp R               &kp T                                                       &kp Y               &kp U               &kp I               &kp O               &kp P               &kp LEFT_BRACKET
-            &kp TAB             &hrm LCTRL A        &hrm LALT S         &hrm LGUI D         &hrm LSHIFT F       &kp G                                                       &kp H               &hrm LSHIFT J       &hrm LGUI K         &hrm LALT L         &hrm LCTRL SEMI     &kp SQT
+            &none               &kp Q               &kp W               &kp E               &kp R               &kp T                                                       &kp Y               &kp U               &kp I               &kp O               &kp P               &kp LEFT_BRACKET
+            &none               &hrm LCTRL A        &hrm LALT S         &hrm LGUI D         &hrm LSHIFT F       &kp G                                                       &kp H               &hrm LSHIFT J       &hrm LGUI K         &hrm LALT L         &hrm LCTRL SEMI     &kp SQT
             &none               &kp Z               &kp X               &kp C               &kp V               &kp B               &kp C_MUTE          &none               &kp N               &kp M               &kp COMMA           &kp DOT             &kp FSLH            &none
-                                                    &none               &none               &none               &lt NAV LC(SPACE)   &kp SPACE           &kp ENTER           &lt SYM LG(SPACE)   &kp BKSP            &none               &none
+                                                    &none               &kp ESC             &kp TAB             &lt NAV LC(SPACE)   &kp SPACE           &kp ENTER           &lt SYM LG(SPACE)   &kp BKSP            &none               &none
             >;
 
             sensor-bindings =
@@ -50,9 +50,9 @@
            
            bindings = <
            &none                &none               &none               &none               &none               &none                                                       &none               &none               &none               &none               &none               &none
-           &trans               &kp HOME            &kp PG_UP           &kp PG_DN           &kp END             &none                                                       &none               &kp N7              &kp N8              &kp N9              &kp ASTERISK        &mt PERCENT KP_DIVIDE
-           &trans               &hrm LCTRL LEFT     &hrm LALT UP        &hrm LGUI DOWN      &hrm LSHIFT RIGHT   &none                                                       &none               &kp N4              &kp N5              &kp N6              &kp EQUAL           &kp MINUS
-           &trans               &kp LA(LEFT)        &kp LA(UP)          &kp LA(DOWN)        &kp LA(RIGHT)       &none               &trans              &trans              &none               &kp N1              &kp N2              &kp N3              &none               &none
+           &trans               &none               &kp HOME            &kp PG_UP           &kp END             &none                                                       &none               &kp N7              &kp N8              &kp N9              &kp ASTERISK        &mt PERCENT KP_DIVIDE
+           &trans               &hrm LCTRL NONE     &hrm LALT LEFT      &hrm LGUI DOWN      &hrm LSHIFT RIGHT   &none                                                       &none               &hrm LSHIFT N4      &hrm LGUI N5        &hrm LALT N6        &hrm LCTRL EQUAL    &kp MINUS
+           &trans               &none               &kp LA(LEFT)        &none               &kp LA(RIGHT)       &none               &trans              &trans              &none               &kp N1              &kp N2              &kp N3              &none               &none
                                                     &trans              &trans              &trans              &trans              &trans              &trans              &trans              &trans              &kp N0              &none
             >;
         };
