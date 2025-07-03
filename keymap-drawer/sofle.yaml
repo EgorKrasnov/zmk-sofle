@@ -52,14 +52,14 @@ layers:
   - /
   - \
   - ''
+  - Gui+↹
   - ↹
   - {t: ␣, h: nav_num}
   - {t: Ctl+␣, h: sym}
-  - ''
-  - ''
   - sym
   - {t: BACKSPACE, h: nav_num}
   - ENTER
+  - ''
   - ''
   nav_num:
   - ''
@@ -114,8 +114,8 @@ layers:
   - ''
   - ''
   - {t: ▽, type: trans}
-  - {type: held}
   - {t: ▽, type: trans}
+  - {type: held}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -176,8 +176,8 @@ layers:
   - ''
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {type: held}
   - {t: ▽, type: trans}
+  - {type: held}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
