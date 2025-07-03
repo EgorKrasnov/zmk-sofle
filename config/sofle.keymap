@@ -7,6 +7,7 @@
 #include <behaviors.dtsi>
 #include <dt-bindings/zmk/bt.h>
 #include <dt-bindings/zmk/keys.h>
+#include <dt-bindings/zmk/pointing.h>
 
 #define BASE 0
 #define NAV 1
@@ -32,11 +33,11 @@
         default_layer {
             display-name = "default";
             bindings = <
-&none      &none         &none        &none        &none          &none                                       &none              &none          &none        &none        &none            &none
-&kp ESC    &kp Q         &kp W        &kp E        &kp R          &kp T                                       &kp Y              &kp U          &kp I        &kp O        &kp P            &mt LEFT_BRACKET RIGHT_BRACKET
-&none      &hrm LCTRL A  &hrm LALT S  &hrm LCMD D  &hrm LSHIFT F  &kp G                                       &kp H              &hrm LSHIFT J  &hrm LCMD K  &hrm LALT L  &hrm LCTRL SEMI  &kp SQT
-&kp GRAVE  &kp Z         &kp X        &kp C        &kp V          &kp B              &kp C_MUTE    &none      &kp N              &kp M          &kp COMMA    &kp DOT      &kp FSLH         &kp BACKSLASH
-                         &none        &kp ESC      &kp TAB        &lt NAV LC(SPACE)  &kp SPACE     &kp ENTER  &lt SYM LG(SPACE)  &kp BKSP       &none        &none
+&none      &none         &none        &none        &none          &none                                      &none              &none          &none        &none        &none            &none
+&kp ESC    &kp Q         &kp W        &kp E        &kp R          &kp T                                      &kp Y              &kp U          &kp I        &kp O        &kp P            &mt LEFT_BRACKET RIGHT_BRACKET
+&none      &hrm LCTRL A  &hrm LALT S  &hrm LCMD D  &hrm LSHIFT F  &kp G                                      &kp H              &hrm LSHIFT J  &hrm LCMD K  &hrm LALT L  &hrm LCTRL SEMI  &kp SQT
+&kp GRAVE  &kp Z         &kp X        &kp C        &kp V          &kp B              &mkp LCLK    &mkp RCLK  &kp N              &kp M          &kp COMMA    &kp DOT      &kp FSLH         &kp BACKSLASH
+                         &none        &kp TAB      &kp SPACE      &lt NAV LC(SPACE)  &none        &none      &lt SYM LG(SPACE)  &kp BACKSPACE  &kp ENTER    &none
             >;
 
             sensor-bindings =
@@ -48,9 +49,9 @@
             display-name = "nav_num";
             bindings = <
 &none  &none  &none     &none     &none      &none                     &none                  &none   &none   &none   &none      &none
-&none  &none  &kp HOME  &kp UP    &kp END    &none                     &kp RIGHT_PARENTHESIS  &kp N7  &kp N8  &kp N9  &kp EQUAL  &none
-&none  &none  &kp LEFT  &kp DOWN  &kp RIGHT  &none                     &kp N0                 &kp N4  &kp N5  &kp N6  &kp MINUS  &none
-&none  &none  &none     &none     &none      &none   &none     &none   &kp LEFT_PARENTHESIS   &kp N1  &kp N2  &kp N3  &none      &none
+&none  &none  &kp HOME  &kp UP    &kp END    &kp F3                    &kp RIGHT_PARENTHESIS  &kp N7  &kp N8  &kp N9  &kp EQUAL  &none
+&none  &none  &kp LEFT  &kp DOWN  &kp RIGHT  &kp F2                    &kp N0                 &kp N4  &kp N5  &kp N6  &kp MINUS  &none
+&none  &none  &none     &none     &none      &kp F1  &none     &none   &kp LEFT_PARENTHESIS   &kp N1  &kp N2  &kp N3  &none      &none
               &none     &trans    &trans     &trans  &trans    &trans  &trans                 &trans  &none   &kp N0
             >;
         };
