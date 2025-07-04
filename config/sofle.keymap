@@ -13,8 +13,7 @@
 #define NAV 1
 #define SYM 2
 
-&lt {
-};
+&lt { quick-tap-ms = <200>; };
 
 / {
     behaviors {
