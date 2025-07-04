@@ -43,8 +43,8 @@ layers:
   - C
   - V
   - B
-  - '&cmd_tab'
-  - Right Click
+  - ''
+  - Gui+↹
   - N
   - M
   - ','

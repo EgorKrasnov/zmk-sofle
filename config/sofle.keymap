@@ -7,7 +7,6 @@
 #include <behaviors.dtsi>
 #include <dt-bindings/zmk/bt.h>
 #include <dt-bindings/zmk/keys.h>
-#include <dt-bindings/zmk/pointing.h>
 
 #define BASE 0
 #define NAV 1
@@ -35,7 +34,7 @@
         cmd_tab: cmd_tab {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
-            bindings = <&macro_press>, <&sk LEFT_GUI &kp TAB>;
+            bindings = <&macro_press>, <&sk LEFT_GUI &kp TAB>, <&macro_press>;
 
             label = "CMD_TAB";
         };
@@ -50,7 +49,7 @@
 &none      &none         &none        &none        &none          &none                                               &none            &none            &none        &none        &none            &none
 &kp ESC    &kp Q         &kp W        &kp E        &kp R          &kp T                                               &kp Y            &kp U            &kp I        &kp O        &kp P            &mt RIGHT_BRACKET LEFT_BRACKET
 &kp GRAVE  &hrm LCTRL A  &hrm LALT S  &hrm LCMD D  &hrm LSHIFT F  &kp G                                               &kp H            &hrm LSHIFT J    &hrm LCMD K  &hrm LALT L  &hrm LCTRL SEMI  &kp SQT
-&none      &kp Z         &kp X        &kp C        &kp V          &kp B        &cmd_tab         &mkp RCLK             &kp N            &kp M            &kp COMMA    &kp DOT      &kp FSLH         &kp BACKSLASH
+&none      &kp Z         &kp X        &kp C        &kp V          &kp B        &none            &kp RG(TAB)           &kp N            &kp M            &kp COMMA    &kp DOT      &kp FSLH         &kp BACKSLASH
                          &none        &kp TAB      &lt 1 SPACE    &lt 2 SPACE  &kp LC(SPACE)    &kp LS(LG(NUMBER_4))  &lt 2 BACKSPACE  &lt 1 BACKSPACE  &kp ENTER    &none
             >;
 
