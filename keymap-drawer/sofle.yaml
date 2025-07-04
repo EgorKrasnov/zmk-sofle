@@ -43,7 +43,7 @@ layers:
   - C
   - V
   - B
-  - {t: Gui+↹, h: sticky}
+  - '&cmd_tab'
   - Right Click
   - N
   - M
