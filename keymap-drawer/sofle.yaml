@@ -52,16 +52,16 @@ layers:
   - /
   - \
   - ''
-  - ''
   - ↹
-  - {t: ␣, h: nav_num}
-  - {t: Ctl+␣, h: sym}
-  - sym
-  - {t: BACKSPACE, h: nav_num}
+  - {t: ␣, h: sym}
+  - {t: ␣, h: nav}
+  - Ctl+␣
+  - Sft+Gui+4
+  - {t: BACKSPACE, h: nav}
+  - {t: BACKSPACE, h: sym}
   - ENTER
   - ''
-  - ''
-  nav_num:
+  sym:
   - ''
   - ''
   - ''
@@ -114,15 +114,15 @@ layers:
   - ''
   - ''
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
   - {type: held}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
   - ''
-  sym:
+  nav:
   - Boot
   - BT CLR
   - BT 2
@@ -176,8 +176,8 @@ layers:
   - ''
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
   - {type: held}
+  - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}

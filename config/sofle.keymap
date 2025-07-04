@@ -15,6 +15,8 @@
 
 &lt { quick-tap-ms = <200>; };
 
+&inc_dec_kp { tap-ms = <100>; };
+
 / {
     behaviors {
         hrm: home_row_mod {
@@ -43,7 +45,7 @@
             >;
 
             sensor-bindings =
-                <&inc_dec_kp DOWN UP_ARROW>,
+                <&inc_dec_kp LS(LG(LC(TAB))) LG(TAB)>,
                 <&inc_dec_kp RIGHT LEFT>;
         };
 
