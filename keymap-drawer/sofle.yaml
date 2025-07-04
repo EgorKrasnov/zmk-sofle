@@ -52,7 +52,7 @@ layers:
   - /
   - \
   - ''
-  - Gui+↹
+  - ''
   - ↹
   - {t: ␣, h: nav_num}
   - {t: Ctl+␣, h: sym}
