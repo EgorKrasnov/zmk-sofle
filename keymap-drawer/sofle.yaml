@@ -55,7 +55,7 @@ layers:
   - ↹
   - {t: ␣, h: sym}
   - {t: ␣, h: nav}
-  - Ctl+␣
+  - {t: Ctl+␣, h: Sft+Gui+4}
   - Sft+Gui+4
   - {t: BACKSPACE, h: nav}
   - {t: BACKSPACE, h: sym}
