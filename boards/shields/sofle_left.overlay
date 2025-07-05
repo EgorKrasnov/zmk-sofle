@@ -1,0 +1,5 @@
+/ {
+    &encoder0 {
+        triggers-per-rotation = <18>;
+    };
+};
