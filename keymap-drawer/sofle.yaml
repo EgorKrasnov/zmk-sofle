@@ -140,7 +140,7 @@ layers:
   - ''
   - ''
   - Sft+Gui+A
-  - Sft+Gui+5
+  - Sft+Gui+T
   - Page Up
   - Home
   - ↑
@@ -152,7 +152,7 @@ layers:
   - Alt
   - Gui
   - Shift
-  - Sft+Gui+4
+  - Sft+Gui+5
   - Page Down
   - ←
   - ↓
