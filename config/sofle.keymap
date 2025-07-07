@@ -39,7 +39,8 @@
                 <&kp LEFT_GUI>,
                 <&macro_tap>,
                 <&kp TAB>,
-                <&macro_release>;
+                <&macro_release>,
+                <&kp LEFT_GUI>;
 
             label = "CMD_TAB";
         };
