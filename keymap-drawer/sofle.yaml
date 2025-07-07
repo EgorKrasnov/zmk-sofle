@@ -79,7 +79,7 @@ layers:
   - Gui+W
   - Gui+E
   - Gui+R
-  - F3
+  - {t: Gui+T, h: F3}
   - )
   - '7'
   - '8'
@@ -91,7 +91,7 @@ layers:
   - Alt
   - Gui
   - Shift
-  - F2
+  - {t: Gui+G, h: F2}
   - '0'
   - '4'
   - '5'
@@ -103,7 +103,7 @@ layers:
   - Gui+X
   - Gui+C
   - Gui+V
-  - F1
+  - {t: Gui+B, h: F1}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - (
