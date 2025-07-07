@@ -43,7 +43,7 @@ layers:
   - C
   - V
   - B
-  - ''
+  - '&cmd_tab'
   - Gui+↹
   - N
   - M
