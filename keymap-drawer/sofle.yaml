@@ -127,6 +127,7 @@ layers:
   - BT CLR
   - BT 2
   - BT 3
+  - BT 4
   - ''
   - ''
   - ''
@@ -134,8 +135,7 @@ layers:
   - ''
   - ''
   - ''
-  - ''
-  - ''
+  - BT CLR ALL
   - Gui+Ctl+Q
   - ''
   - ''
@@ -147,7 +147,7 @@ layers:
   - End
   - ''
   - ''
-  - ''
+  - Reset
   - Ctrl
   - Alt
   - Gui
