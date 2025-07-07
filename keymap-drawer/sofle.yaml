@@ -87,10 +87,10 @@ layers:
   - '='
   - ''
   - ''
-  - Ctrl
-  - Alt
-  - Gui
-  - Shift
+  - {t: Gui+A, h: Ctrl}
+  - {t: Gui+S, h: Alt}
+  - Gui+D
+  - {t: Gui+F, h: Shift}
   - {t: Gui+G, h: F2}
   - '0'
   - '4'
